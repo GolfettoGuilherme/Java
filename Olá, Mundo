@@ -1,0 +1,13 @@
+package primeiroprograma;
+public class PrimeiroPrograma{
+     public static void main(String[] args){
+          System.out.print("Olá Mundo!");
+     }
+}
+
+
+para agilizar a criação no NetBeans:
+
+psvm + Tab (completa a linha do public static void main)
+
+sout + Tab (completa a linha do System.out.Print.
