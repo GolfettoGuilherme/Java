@@ -1,0 +1,25 @@
+package resolucaotela;
+        //Se não colocar essas bibliotecas, não vai funcionar os comandos.
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
+public class ResolucaoTela {
+
+    public static void main(String[] args) {
+
+            //Toolkit para encontrar a screenSize da tela 
+      Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+
+
+            //variavel width recebe o que o Toolkit pegar de Width da tela
+      double width = screenSize.getWidth();
+
+
+            //variavel height recebe o que o Toolkit pegar de Height da tela;
+      double height = screenSize.getHeight();
+
+
+        System.out.println("O seu monitor é: " + width + " x " + height);
+    }
+    
+}
